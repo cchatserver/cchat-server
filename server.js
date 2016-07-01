@@ -28,9 +28,9 @@ var version = process.env.VERSION;
 
 //Init Cloudinary service::
 cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME || "dj3sseyod",
+    api_key: process.env.CLOUDINARY_API_KEY || "777243956289348",
+    api_secret: process.env.CLOUDINARY_API_SECRET || "-IRqcF3HGfdT4k6EUCUbse3ggHE"
 });
 /**
  * Transaction receipt example form IAP Billin ANE.
